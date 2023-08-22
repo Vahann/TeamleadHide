@@ -1,0 +1,41 @@
+{
+    "key": "one.teamlead.jira-plugins.teamlead-hide",
+    "name": "teamlead-hide",
+    "description": "This is the Teamlead-hide plugin for Atlassian JIRA",
+    "baseUrl": "{{localBaseUrl}}",
+    "links": {
+        "self": "{{localBaseUrl}}/atlassian-connect.json",
+        "homepage": "{{localBaseUrl}}/atlassian-connect.json"
+      },
+    "authentication": {
+        "type": "jwt"
+    },
+    "lifecycle": {
+        "installed": "/installed",
+        "uninstalled": "/uninstalled",
+        "enabled": "/enabled"
+      },
+    "scopes": [
+        "READ", "DELETE", "ADMIN", "WRITE"
+    ],
+    "apiMigrations": {
+        "gdpr": true,
+        "context-qsh": true,
+        "signed-install": true
+      },
+    "modules": {
+        "generalPages": [
+            {
+                "key": "teamlead-hide-page-jira",
+                "location": "system.top.navigation.bar",
+                "name": {
+                    "value": "teamlead-hide"
+                },
+                "url": "/teamlead-hide",
+                "conditions": [{
+                    "condition": "user_is_logged_in"
+                }]
+            }
+        ]
+    }
+}
