@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>${artifactId}</artifactId>
+    <artifactId>frontend</artifactId>
 
     <parent>
-        <groupId>${groupId}</groupId>
-        <artifactId>${rootArtifactId}</artifactId>
-        <version>${version}</version>
+        <groupId>one.example.plugin.jira</groupId>
+        <artifactId>example-hide</artifactId>
+        <version>1.0.36-SNAPSHOT</version>
     </parent>
 
     <properties>
@@ -25,14 +25,11 @@
                 <executions>
                     <!-- Install our node and npm version to run npm/node scripts-->
                     <execution>
-<!--                        <id>install node and npm</id>-->
-                        <id>npm install</id>
+                        <id>install node and npm</id>
                         <goals>
-<!--                            <goal>install-node-and-npm</goal>-->
-                            <goal>npm</goal>
+                            <goal>install-node-and-npm</goal>
                         </goals>
                         <configuration>
-<!--                            NODE_VERSION //////////////////////////////////-->
                             <nodeVersion>v18.17.1</nodeVersion>
                         </configuration>
                     </execution>

@@ -1,4 +1,4 @@
-package one.example.jira.plugins.hide.ao.entity;
+package one.example.plugin.jira.ao.entity;
 
 import net.java.ao.Entity;
 

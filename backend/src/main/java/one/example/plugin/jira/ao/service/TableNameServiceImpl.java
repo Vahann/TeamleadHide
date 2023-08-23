@@ -1,4 +1,4 @@
-package one.example.jira.plugins.hide.ao.service;
+package one.example.plugin.jira.ao.service;
 
 import com.atlassian.activeobjects.external.ActiveObjects;
 import com.atlassian.jira.bc.issue.search.SearchService;
@@ -10,7 +10,7 @@ import com.atlassian.jira.user.ApplicationUser;
 import com.atlassian.jira.web.bean.PagerFilter;
 import com.atlassian.plugin.spring.scanner.annotation.component.Scanned;
 import net.java.ao.Query;
-import one.example.jira.plugins.hide.ao.entity.TableName;
+import one.example.plugin.jira.ao.entity.TableName;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;

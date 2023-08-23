@@ -1,8 +1,8 @@
-package one.example.jira.plugins.hide.ao.service;
+package one.example.plugin.jira.ao.service;
 
 import com.atlassian.jira.issue.Issue;
 import com.atlassian.jira.user.ApplicationUser;
-import one.example.jira.plugins.hide.ao.entity.TableName;
+import one.example.plugin.jira.ao.entity.TableName;
 
 import java.util.List;
 import java.util.Map;

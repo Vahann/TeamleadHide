@@ -1,6 +1,6 @@
 {
-  "name": "my-app",
-  "version": "0.0.1",
+  "name": "example-hide",
+  "version": "1.0.36-SNAPSHOT",
   "private": true,
   "externals": {
     "react": "React",

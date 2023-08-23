@@ -1,32 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>one.example.jira.plugins</groupId>
+
+    <groupId>one.example.plugin.jira</groupId>
     <artifactId>example-hide</artifactId>
-    <version>1.0.35-SNAPSHOT</version>
-    <packaging>maven-archetype</packaging>
+    <version>1.0.36-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-    <name>example-hide</name>
-
-    <build>
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.archetype</groupId>
-                <artifactId>archetype-packaging</artifactId>
-                <version>3.1.2</version>
-            </extension>
-        </extensions>
-
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <artifactId>maven-archetype-plugin</artifactId>
-                    <version>3.1.2</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
-
+    <name>Parent Bunlde</name>
     <url>http://maven.apache.org</url>
+
+    <modules>
+        <module>frontend</module>
+        <module>backend</module>
+    </modules>
+    <properties>
+<!--        <project.version>1.0.36-SNAPSHOT</project.version>-->
+
+    </properties>
 </project>

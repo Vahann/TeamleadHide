@@ -1,11 +1,11 @@
-package one.example.jira.plugins.hide.rest;
+package one.example.plugin.jira.rest;
 
 import com.atlassian.jira.component.ComponentAccessor;
 import com.atlassian.jira.user.ApplicationUser;
 import com.atlassian.jira.util.json.JSONException;
 import com.atlassian.jira.util.json.JSONObject;
-import one.example.jira.plugins.hide.ao.entity.TableName;
-import one.example.jira.plugins.hide.ao.service.TableNameService;
+import one.example.plugin.jira.ao.entity.TableName;
+import one.example.plugin.jira.ao.service.TableNameService;
 import org.apache.commons.httpclient.HttpStatus;
 import org.apache.log4j.Logger;
 

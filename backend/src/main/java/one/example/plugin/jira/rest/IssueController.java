@@ -1,4 +1,4 @@
-package one.example.jira.plugins.hide.rest;
+package one.example.plugin.jira.rest;
 
 import com.atlassian.jira.avatar.Avatar;
 import com.atlassian.jira.avatar.AvatarService;
@@ -16,7 +16,7 @@ import com.atlassian.jira.util.ErrorCollection;
 import com.atlassian.jira.util.json.JSONArray;
 import com.atlassian.jira.util.json.JSONException;
 import com.atlassian.jira.util.json.JSONObject;
-import one.example.jira.plugins.hide.ao.service.TableNameService;
+import one.example.plugin.jira.ao.service.TableNameService;
 import org.apache.commons.httpclient.HttpStatus;
 import org.apache.log4j.Logger;
 
