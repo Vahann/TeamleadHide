@@ -1,9 +1,23 @@
+{namespace hide.soy}
 
 /**
-    Hide configuration page.
+ * This template is needed to draw the dynamic table page.
+ *   {webResourceManager_requireResourcesForContext('dynamictable')}
+ */
+{template .dynamictable}
+    <html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="decorator" content="atl.admin">
+        <meta name="admin.active.section" content="admin_plugins_menu/react">
+        <title>Dynamic Table Page</title>
+    </head>
+    <body>
+    <div id="maincontainer">
+        <div id="container">
 
-*/
-{template .cfConfigurationPage}
-
-
+        </div>
+    </div>
+    </body>
+    </html>
 {/template}

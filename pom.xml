@@ -226,9 +226,17 @@
                 </configuration>
             </plugin>
         </plugins>
+            <resources>
+                <resource>
+                    <directory>src/main/resources</directory>
+                    <filtering>true</filtering>
+                </resource>
+            </resources>
+
+
     </build>
     <properties>
-        <project.version>1.0.32-SNAPSHOT</project.version>
+        <project.version>1.0.100-SNAPSHOT</project.version>
         <jira.version>9.7.0-m0005</jira.version>
         <amps.version>5.1.18</amps.version>
         <ao.version>0.29.3</ao.version>
